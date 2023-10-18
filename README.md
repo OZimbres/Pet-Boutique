@@ -34,8 +34,8 @@
 <hr>
 
 
-<h2 id="nome-do-projeto"> Nome do Projeto </h2>
-<h3> SIASO - Situação de Aprendizagem Sistemas Operacionais </h3>
+<h2 id="nome-do-projeto"> Pet Boutique: Élégance </h2>
+<h3> A world of opulence for your beloved companion </h3>
 
 
 <hr>
