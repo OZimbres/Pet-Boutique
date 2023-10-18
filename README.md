@@ -3,7 +3,7 @@
 <p align="center"> Pet Boutique: Élégance </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/web-OK-blue?style=for-the-badge" alt="Sistema web Ok" />
+  <img src="https://img.shields.io/badge/web-DOING-red?style=for-the-badge" alt="Sistema web DOING" />
   <img src="https://img.shields.io/badge/server-DOING-red?style=for-the-badge" alt="Server DOING" />
   <img src="https://img.shields.io/badge/Mobile-DOING-red?style=for-the-badge" alt="Aplicativo mobile DOING" />
   <img src="https://img.shields.io/badge/License-DOING-red?style=for-the-badge" alt="License DOING" />
