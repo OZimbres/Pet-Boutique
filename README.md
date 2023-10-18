@@ -9,7 +9,9 @@
   <img src="https://img.shields.io/badge/License-DOING-red?style=for-the-badge" alt="License DOING" />
 </p>
 
+
 <hr>
+
 
 <h2 id="index"> 📌 Índice </h2>
 <p align="center">   
@@ -29,10 +31,14 @@
 </p>
 
 
+<hr>
+
 
 <h2 id="nome-do-projeto"> Nome do Projeto </h2>
 <h3> SIASO - Situação de Aprendizagem Sistemas Operacionais </h3>
 
+
+<hr>
 
 
 <h2 id="descricao"> Descrição </h2>
@@ -41,29 +47,23 @@
 <p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Eduardo Costa solicitou a realização de uma aplicação que atendesse os requisitos passados por ele. Nós, a equipe Ultron, nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. </p>
 
 
+<hr>
+
 
 <h2 id="badges"> Badges </h2>
 
+
+<hr>
 
 
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Inicial: </p>
 <img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
 
-<p> Tela Secretaria: </p>
-<img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="readMeContent/secretariaExemplo.png" align="center"/>
-
-<p> Tela Diário Escolar: </p>
-<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="readMeContent/diarioEscolarExemplo.png" align="center"/>
-
-<p> Tela Biblioteca: </p>
-<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
-
-<p> Tela Cantina: </p>
-<img alt="Tela Cantina" title="TelaCantina" style="object-fit: cover; height: 250px;" src="readMeContent/cantinaExemplo.png" align="center"/>
-
 <h3> GIF's </h3>
 
+
+<hr>
 
 
 <h2 id="tecnologias"> Tecnologias </h2>
@@ -141,12 +141,16 @@
 </ul>
 
 
+<hr>
+
 
 <h2 id="uso"> Uso </h2>
 <p> Acesse a <a href="readMeContent/MANUAL_DO_SIASO.docx">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação. </p>
 <p> <a href="readMeContent/crachaFinal.docx"> Crachás </a> </p>
 <p> <a href="readMeContent/cartaContratacao.docx"> Carta de Contratação </a> </p>
 
+
+<hr>
 
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
@@ -156,6 +160,8 @@
 <p> Projeto em Desenvolvimento </p>
 <p> O seguimento do projeto se dará pela resposa a ser obtida dia 25/05. </p>
 
+
+<hr>
 
 
 <h2 id="issues"> 🐛 Issues </h2>
@@ -182,10 +188,14 @@
 > Se você já encontrou uma solução para eu problema, vamos adorar revisar o seu Pull Request!
 
 
+<hr>
+
 
 <h2 id="contribuicoes"> 🤝 Contribuições </h2>
 <p> Caso deseje participar do nosso projeto, entre em contato pelo email ___@___ ou por um canal específico em noso Discord. Para mais detalhes, leia a nossa <a href="">documentção</a>. </p>
 
+
+<hr>
 
 
 <h2 id="autores-e-agradecimentos"> Autores e agradecimentos </h2>
@@ -221,6 +231,8 @@
 </div>
 
 
+<hr>
+
 
 <h2 id="referencias"> Referências </h2>
 
@@ -230,6 +242,10 @@
 * Badges
     - [Shields](https://shields.io/)
     - [Template Badges](https://github.com/iuricode/readme-template/blob/main/badges/badges.md)
+
+
+<hr>
+
 
 <h2 id="licenca"> Licença </h2>
 <img src="https://img.shields.io/badge/Estamos Resolvendo-orange?style=for-the-badge" align="center" alt="Licença"/>
