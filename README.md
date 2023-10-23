@@ -205,8 +205,8 @@
     <tbody>
       <tr align=center>
         <th><strong> Lorenzo O. Zimbres </br> LoriaLawrenceZ </strong></th>
-        <th><strong> Gabriel A. Paiva </br> Paiva8859 </strong></th>
-        <th><strong> Matheus R. Silva </br> TheuZCoder</strong></th>
+        <th><strong> Rhuan C. Brasilis </br> RhuanCarlos019 </strong></th>
+        <th><strong> Luis Otavio Beckman </br> Luisz </strong></th>
       </tr>
       <tr align=center>
         <td>
@@ -215,13 +215,13 @@
           </a>
         </td>
         <td>
-          <a href="https://github.com/Paiva8859">
+          <a href="https://github.com/RhuanCarlos019">
             <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/123770443?v=4">
           </a>
         </td>
         <td>
-          <a href="https://github.com/TheuZCoder">
-            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82974688?v=4">
+          <a href="https://github.com/LuisOtavioBeckaman">
+            <img width="200" height="200" style="border-radius: 50%;" src="(https://avatars.githubusercontent.com/u/123770533?v=4">
           </a>
         </td>
       </tr>
