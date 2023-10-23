@@ -205,7 +205,7 @@
     <tbody>
       <tr align=center>
         <th><strong> Lorenzo O. Zimbres </br> LoriaLawrenceZ </strong></th>
-        <th><strong> Rhuan C. Brasilis </br> RhuanCarlos019 </strong></th>
+        <th><strong> Rhuan C. Prazeres </br> RhuanCarlos019 </strong></th>
         <th><strong> Luis Otavio Beckman </br> Luisz </strong></th>
       </tr>
       <tr align=center>
