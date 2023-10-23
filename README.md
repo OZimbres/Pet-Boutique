@@ -221,7 +221,7 @@
         </td>
         <td>
           <a href="https://github.com/LuisOtavioBeckaman">
-            <img width="200" height="200" style="border-radius: 50%;" src="(https://avatars.githubusercontent.com/u/123770533?v=4">
+            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/123770533?v=4">
           </a>
         </td>
       </tr>
