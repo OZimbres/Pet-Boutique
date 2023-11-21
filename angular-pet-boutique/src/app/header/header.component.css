@@ -1,0 +1,60 @@
+header {
+    background: #f4912d; /* Cor laranja */
+    color: #fff; /* Cor do texto no header */
+    padding: 20px 0; /* Aumenta o padding para uma altura de header maior */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.logo img {
+    max-width: 100%; /* Garante que a imagem do logo não ultrapasse a largura do contêiner */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza a barra de pesquisa */
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px; /* Borda mais arredondada */
+    margin-right: 10px;
+    width: 250px; /* Largura da barra de pesquisa */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.search-bar button {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 25px; /* Borda mais arredondada */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+.user-cart-icons i {
+    font-size: 24px; /* Ajusta o tamanho dos ícones */
+    margin-left: 20px; /* Adiciona um espaçamento entre os ícones */
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4912d;
+}
+
+nav a {
+    color: #fafafa; /* Cor dos links no header */
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease; /* Transição suave na mudança de cor */
+}
+
+nav a:hover {
+    color: #ffbc58; /* Cor ao passar o mouse sobre os links */
+}
