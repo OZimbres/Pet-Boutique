@@ -11,6 +11,8 @@ import { HeaderBottomComponent } from './shared/header-bottom/header-bottom.comp
 import { ContainerHeaderComponent } from './shared/container-header/container-header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProdutosComponent } from './pages/produtos/produtos.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     HeaderTopComponent,
     HeaderBottomComponent,
-    ContainerHeaderComponent
+    ContainerHeaderComponent,
+    ProdutosComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
