@@ -8,7 +8,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { HeaderTopComponent } from './shared/header-top/header-top.component';
 import { HeaderBottomComponent } from './shared/header-bottom/header-bottom.component';
-import { ContainerHeaderComponent } from './shared/container-header/container-header.component'
+import { ContainerHeaderComponent } from './shared/container-header/container-header.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContainerHeaderComponent } from './shared/container-header/container-he
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
