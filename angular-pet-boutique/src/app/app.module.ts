@@ -13,6 +13,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProdutosComponent } from './pages/produtos/produtos.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { ContainerProdutosComponent } from './shared/container-produtos/container-produtos.component';
+import { ProdutosCabecalhoComponent } from './shared/produtos-cabecalho/produtos-cabecalho.component';
+import { ProdutosFiltrosComponent } from './shared/produtos-filtros/produtos-filtros.component';
+import { ProdutosResultadosComponent } from './shared/produtos-resultados/produtos-resultados.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { FaqComponent } from './pages/faq/faq.component';
     HeaderBottomComponent,
     ContainerHeaderComponent,
     ProdutosComponent,
-    FaqComponent
+    FaqComponent,
+    ContainerProdutosComponent,
+    ProdutosCabecalhoComponent,
+    ProdutosFiltrosComponent,
+    ProdutosResultadosComponent,
   ],
   imports: [
     BrowserModule,
