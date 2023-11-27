@@ -1,0 +1,10 @@
+/*Vai aplicar o estilo ao container (componente de fora), e não seus componentes internos*/
+:host/*Seleciona o hospedeiro, o de fora apenas*/{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+}
