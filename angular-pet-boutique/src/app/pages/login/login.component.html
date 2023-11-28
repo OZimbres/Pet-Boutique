@@ -3,7 +3,116 @@
 </app-container-header>
 
 <article class="login_body">
+  <div class="container">
+    <div class="content first-content">
+      <div class="first-column">
+        <h2 class="title title-primary">Bem vindo de volta!</h2>
+        <p class="description description-primary">Sentimos sua falta!</p>
+        <p class="description description-primary">
+          Faça login e aproveite nossas diversas promoções!!!
+        </p>
+        <button #signin class="btn btn-primary">Entrar</button>
+      </div>
+      <div class="second-column">
+        <h2 class="title title-second">Criar conta</h2>
+        <div class="social-media">
+          <ul class="list-social-media">
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+            </a>
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-google-plus-g"></i>
+              </li>
+            </a>
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-linkedin-in"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <!-- social media -->
+        <p class="description description-second">
+          Use seu e-mail para se registrar
+        </p>
+        <form class="form">
+          <label class="label-input" for="">
+            <i class="far fa-user icon-modify"></i>
+            <input type="text" placeholder="Nome" />
+          </label>
 
+          <label class="label-input" for="">
+            <i class="far fa-envelope icon-modify"></i>
+            <input type="email" placeholder="Email" />
+          </label>
+
+          <label class="label-input" for="">
+            <i class="fas fa-lock icon-modify"></i>
+            <input type="password" placeholder="Senha" />
+          </label>
+
+          <button class="btn btn-second">Cadastrar</button>
+        </form>
+      </div>
+      <!-- second column -->
+    </div>
+    <!-- first content -->
+    <div class="content second-content">
+      <div class="first-column">
+        <h2 class="title title-primary">Olá, amigo(a)!</h2>
+        <p class="description description-primary">
+          Ainda não faz parte da nossa petComunidade?
+        </p>
+        <p class="description description-primary">Não perca mais tempo</p>
+        <button #signup class="btn btn-primary">Cadastre-se</button>
+      </div>
+      <div class="second-column">
+        <h2 class="title title-second">Login</h2>
+        <div class="social-media">
+          <ul class="list-social-media">
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+            </a>
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-google-plus-g"></i>
+              </li>
+            </a>
+            <a class="link-social-media" href="#">
+              <li class="item-social-media">
+                <i class="fab fa-linkedin-in"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <!-- social media -->
+        <p class="description description-second">
+          Use o email cadastrado para login:
+        </p>
+        <form class="form">
+          <label class="label-input" for="">
+            <i class="far fa-envelope icon-modify"></i>
+            <input type="email" placeholder="Email" />
+          </label>
+
+          <label class="label-input" for="">
+            <i class="fas fa-lock icon-modify"></i>
+            <input type="password" placeholder="Senha" />
+          </label>
+
+          <a class="password" href="#">Esqueci minha senha</a>
+          <button class="btn btn-second">Entrar</button>
+        </form>
+      </div>
+      <!-- second column -->
+    </div>
+    <!-- second-content -->
+  </div>
 </article>
 
 <app-footer></app-footer>

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +17,7 @@ import { ContainerProdutosComponent } from './shared/container-produtos/containe
 import { ProdutosCabecalhoComponent } from './shared/produtos-cabecalho/produtos-cabecalho.component';
 import { ProdutosFiltrosComponent } from './shared/produtos-filtros/produtos-filtros.component';
 import { ProdutosResultadosComponent } from './shared/produtos-resultados/produtos-resultados.component';
+import { BannerCarouselComponent } from './shared/banner-carousel/banner-carousel.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ProdutosResultadosComponent } from './shared/produtos-resultados/produt
     ProdutosCabecalhoComponent,
     ProdutosFiltrosComponent,
     ProdutosResultadosComponent,
+    BannerCarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +43,7 @@ import { ProdutosResultadosComponent } from './shared/produtos-resultados/produt
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
