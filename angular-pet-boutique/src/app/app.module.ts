@@ -18,6 +18,7 @@ import { ProdutosCabecalhoComponent } from './shared/produtos-cabecalho/produtos
 import { ProdutosFiltrosComponent } from './shared/produtos-filtros/produtos-filtros.component';
 import { ProdutosResultadosComponent } from './shared/produtos-resultados/produtos-resultados.component';
 import { BannerCarouselComponent } from './shared/banner-carousel/banner-carousel.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BannerCarouselComponent } from './shared/banner-carousel/banner-carouse
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    MatIconModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

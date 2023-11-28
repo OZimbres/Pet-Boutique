@@ -16,9 +16,22 @@
     width: 25%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
+    mat-icon{
+      height: 50%;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:nth-child{
+        color: white;
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
-  .search{
+  .search_bar{
     height: 100%;
     width: 50%;
     display: flex;
