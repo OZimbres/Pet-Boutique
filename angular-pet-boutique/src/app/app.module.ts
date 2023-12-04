@@ -19,6 +19,7 @@ import { ProdutosFiltrosComponent } from './shared/produtos-filtros/produtos-fil
 import { ProdutosResultadosComponent } from './shared/produtos-resultados/produtos-resultados.component';
 import { BannerCarouselComponent } from './shared/banner-carousel/banner-carousel.component';
 import { MatIconModule } from '@angular/material/icon';
+import { CardProdutoComponent } from './shared/card-produto/card-produto.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MatIconModule } from '@angular/material/icon';
     ProdutosFiltrosComponent,
     ProdutosResultadosComponent,
     BannerCarouselComponent,
+    CardProdutoComponent,
   ],
   imports: [
     BrowserModule,

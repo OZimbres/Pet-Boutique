@@ -1,7 +1,13 @@
 :host{
   height: auto;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+
+  article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 }
