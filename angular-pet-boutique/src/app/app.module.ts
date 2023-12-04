@@ -20,6 +20,11 @@ import { ProdutosResultadosComponent } from './shared/produtos-resultados/produt
 import { BannerCarouselComponent } from './shared/banner-carousel/banner-carousel.component';
 import { MatIconModule } from '@angular/material/icon';
 import { CardProdutoComponent } from './shared/card-produto/card-produto.component';
+import { FiltroTopProdutoComponent } from './shared/filtro-top-produto/filtro-top-produto.component';
+import { MatSelectModule } from '@angular/material/select';
+import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-side-produto.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -38,6 +43,8 @@ import { CardProdutoComponent } from './shared/card-produto/card-produto.compone
     ProdutosResultadosComponent,
     BannerCarouselComponent,
     CardProdutoComponent,
+    FiltroTopProdutoComponent,
+    FiltroSideProdutoComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +52,9 @@ import { CardProdutoComponent } from './shared/card-produto/card-produto.compone
     MatToolbarModule,
     MatIconModule,
     BrowserAnimationsModule,
+    MatSelectModule,
+    MatCheckboxModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent],
