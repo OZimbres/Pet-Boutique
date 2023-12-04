@@ -22,9 +22,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { CardProdutoComponent } from './shared/card-produto/card-produto.component';
 import { FiltroTopProdutoComponent } from './shared/filtro-top-produto/filtro-top-produto.component';
 import { MatSelectModule } from '@angular/material/select';
-import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-side-produto.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSliderModule } from '@angular/material/slider';
+import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-side-produto.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +54,7 @@ import { MatSliderModule } from '@angular/material/slider';
     BrowserAnimationsModule,
     MatSelectModule,
     MatCheckboxModule,
-    MatSliderModule
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
