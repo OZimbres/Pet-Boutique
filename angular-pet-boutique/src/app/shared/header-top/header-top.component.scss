@@ -11,35 +11,87 @@
   align-items: center;
   justify-content: space-around;
 
-  .logo, .icons{
+  .logo{
     height: 100%;
-    width: 25%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    a{
-      height: 50%;
-      width: 50%;
-    }
-    mat-icon{
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      &:nth-child{
-        color: white;
+    img{}
+  }
+
+  .icons{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    a, button{
+      text-decoration: none;
+
+      mat-icon{
         height: 100%;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 32px;
       }
     }
   }
+
   .search_bar{
     height: 100%;
-    width: 50%;
+    width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    input{
+      width: 80%;
+      height: 50%;
+      outline: none;
+      border: none;
+      border-bottom-left-radius: 1.25em;
+      border-top-left-radius: 1.25em;
+      padding: 0 2% 0 4%;
+      font-size: 16px;
+      color: rgb(25, 25, 25);
+    }
+    input:focus ~ button{
+      border-bottom-right-radius: 1.5em;
+      border-top-right-radius: 1.5em;
+      background-color: lightgray;
+    }
+
+    button{
+      min-width: 40px;
+      width: 10%;
+      height: 50%;
+      border: none;
+      outline: none;
+      border-bottom-right-radius: 1.5em;
+      border-top-right-radius: 1.5em;
+      cursor: pointer;
+      transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+      .mat-icon{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        font-size: 28px;
+      }
+    }
+    button:hover, input:focus ~ button:hover{
+      border-bottom-right-radius: 1.5em;
+      border-top-right-radius: 1.5em;
+      background-color: darkgray;
+    }
   }
 }

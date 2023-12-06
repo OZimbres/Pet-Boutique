@@ -25,6 +25,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSliderModule } from '@angular/material/slider';
 import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-side-produto.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { ItemsCarouselComponent } from './shared/items-carousel/items-carousel.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +48,7 @@ import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-
     CardProdutoComponent,
     FiltroTopProdutoComponent,
     FiltroSideProdutoComponent,
+    ItemsCarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +59,8 @@ import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-
     MatSelectModule,
     MatCheckboxModule,
     MatSliderModule,
+    MatMenuModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

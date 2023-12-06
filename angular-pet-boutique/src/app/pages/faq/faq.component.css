@@ -1,0 +1,64 @@
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.faq-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  cursor: pointer;
+  color: #333;
+}
+
+.faq-answer {
+  display: none;
+  color: #555;
+}
+
+/* Adicionando um estilo diferente para quando a resposta estiver visível */
+.faq-answer.active {
+  display: block;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

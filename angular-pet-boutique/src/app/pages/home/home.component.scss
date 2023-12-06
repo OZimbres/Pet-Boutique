@@ -1,4 +1,17 @@
 article{
-  height: 20vh;
+  height: auto;
   width: 100%;
+
+  .banner{
+    height: 45vh;
+    width: 100%;
+  }
+  .products{
+    height: 90em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }

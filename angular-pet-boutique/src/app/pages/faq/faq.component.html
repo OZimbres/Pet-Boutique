@@ -4,7 +4,48 @@
 </app-container-header>
 
 <article class="faq_body">
+  <!--PERGUNTAS FREQUENTES-->
+    <div class="faq-container">
+      <h1>Central de Ajuda</h1>
 
+      <div class="faq-section">
+        <h2 class="faq-question" onclick="toggleAnswer(2)">Como faço para registrar uma reclamação?</h2>
+        <p class="faq-answer">Para registrar uma reclamação, visite nossa página de contato e preencha o formulário de reclamação. Nosso suporte entrará em contato o mais rápido possível.</p>
+      </div>
+
+      <div class="faq-section">
+        <h2 class="faq-question" onclick="toggleAnswer(3)">Posso enviar uma reclamação por e-mail?</h2>
+        <p class="faq-answer">Sim, você pode enviar sua reclamação para o endereço de e-mail supportexample.com. Certifique-se de incluir todas as informações relevantes para uma resposta mais eficiente.</p>
+      </div>
+
+      <!-- Adicione mais seções conforme necessário -->
+
+      <div class="faq-section">
+        <h2 class="faq-question" onclick="toggleAnswer(4)">Como posso acompanhar o status da minha reclamação?</h2>
+        <p class="faq-answer">Você pode acompanhar o status da sua reclamação fazendo login na sua conta e visitando a seção "Minhas Reclamações". Lá você encontrará informações atualizadas sobre o andamento do seu caso.</p>
+      </div>
+    </div>
+
+
+      <!-- Formulário de Contato -->
+    <div class="faq-section">
+      <h2 class="faq-question">Precisa de ajuda adicional? Entre em contato conosco.</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </div>
 </article>
 
 <app-footer></app-footer>

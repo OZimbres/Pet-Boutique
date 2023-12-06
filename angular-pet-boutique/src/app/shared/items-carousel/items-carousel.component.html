@@ -1,0 +1,24 @@
+<article class="carousel-container">
+  <section class="cabecalho">
+    <h2>{{ text }}</h2>
+  </section>
+
+  <section class="conteudo">
+    <div class="btn">
+      <button class="btn-prev">
+        <mat-icon>arrow_back_ios</mat-icon>
+      </button>
+
+      <button class="btn-next">
+        <mat-icon>arrow_forward_ios</mat-icon>
+      </button>
+    </div>
+
+    <div class="visivel">
+      <div class="carousel">
+        <!--' <ng-content> ' permite a criação de pontos de inserção de conteúdo dinâmico em diversos tipos de componentes-->
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </section>
+</article>

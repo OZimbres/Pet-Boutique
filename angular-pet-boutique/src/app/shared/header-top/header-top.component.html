@@ -3,18 +3,19 @@
     <img src="logo.png" alt="Logo da Petshop" />
   </div>
 
-  <div class="search_bar">
+  <form class="search_bar">
     <input type="text" placeholder="Pesquisar produtos" />
     <button type="submit"><mat-icon>search</mat-icon></button>
-  </div>
+  </form>
 
   <div class="icons">
     <a href="">
       <mat-icon>shopping_cart</mat-icon>
     </a>
 
-    <a href="/login">
-      <mat-icon>account_circle</mat-icon>
-    </a>
+    <button mat-button [matMenuTriggerFor]="menu"><mat-icon>account_circle</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <a href="/login" mat-menu-item>Conta</a>
+    </mat-menu>
   </div>
 </div>

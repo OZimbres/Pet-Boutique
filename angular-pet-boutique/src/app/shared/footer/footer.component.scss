@@ -1,16 +1,137 @@
 :host {
-  min-height: 150px;
-  height: 10vh;
   width: 100%;
 
   footer{
-    width: 100%;
-    color: white;
-    background-color: black;
+    background: rgb(39, 0, 85);
+    background: linear-gradient(90deg, rgba(39, 0, 85, 1) 0%, rgba(24, 0, 43, 1) 100%);
 
-    h1{
-      padding: 0;
+    .d1{
+      height: 100%;
+    }
+
+    h1 {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 4vh;
+    }
+
+    .d2 {
+      border-radius: 10px;
+      margin-top: 10vh;
+      margin-left: 15vh;
+      margin-right: 15vh;
+      background-color: #863DE5;
+      padding-left: 1vh;
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+      padding-right: 1vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+
+    }
+
+    .d3 {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 8vh;
+      padding-left: 2vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      padding-right: 2vh;
+      border-radius: 10px;
+      background-color: white;
+      width: 55%;
+
+    }
+
+    .d4 {
+      margin-top: 10vh;
+      margin-left: 15vh;
+      margin-right: 15vh;
+      display: flex;
+      justify-content: space-between;
+      color: #99A2A5;
+    }
+
+    .link {
+      width: 25%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .icons {
+      width: 17%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .text {
+      margin-left: 8vh;
+      width: 30%;
+    }
+
+    form {
+      margin-right: 2vh;
+    }
+
+    .inputForm {
+      width: 400px;
+      height: 55px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+
+    button {
+      background-color: #863DE5;
+      border-color: #863DE5;
+      margin-right: 2vh;
+      padding-left: 10vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      border-radius: 10px;
+    }
+
+    hr {
+      margin-left: 15vh;
+      margin-right: 15vh;
+      color: #99A2A5;
+      margin-top: 8vh;
+    }
+
+    .geral {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      margin-left: 15vh;
+      margin-right: 15vh;
+    }
+
+    .img1 {
+      width: 30vh;
+    }
+
+    p {
+      color: #99A2A5;
+    }
+
+    .termos {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .p1 {
+      margin-right: 10vh;
+    }
+
+    button,
+    p {
       margin: 0;
+      ;
     }
   }
 }
