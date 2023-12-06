@@ -9,7 +9,8 @@
   .carousel-container{
     position: relative;
     height: 100%;
-    width: 97.5%;
+    width: 95%;
+    max-width: 1820px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
     z-index: 500;
 
     .cabecalho{
-      height: 10%;
+      height: 15%;
       width: 90%;
       display: flex;
       align-items: center;
@@ -45,7 +46,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        z-index: 999;
+        z-index: 500;
 
         .btn-prev, .btn-next{
           border: none;

@@ -1,19 +1,36 @@
 /* Estilo dos Produtos */
 :host.home {
-  flex: 0 0 23%;
+  flex: 0 0 14.6%;
   margin: 1%;
 
   .produto-card {
+    -webkit-user-select: none;
+    user-select: none;
+    transform: scale(.99);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
     background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform .6s ease;
+    // Hover do produto-card
+    &:hover {
+      box-shadow: 0 0 20px rgba(255, 94, 0, 0.3);
+      transform: scale(1.01);
+    }
 
-    .produto-img img {
-      width: 100%;
+    .produto-img{
       height: auto;
-      border-bottom: 1px solid #ddd;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: auto;
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-bottom: 1px solid #ddd;
+      }
     }
 
     .produto-info {
@@ -47,7 +64,6 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
-
       .btn-comprar:hover {
         background-color: #e18526;
       }
@@ -56,7 +72,7 @@
 }
 
 :host.produtos{
-  width: 30%;
+  width: 22%;
   margin: 1.5%;
 
   .produto-card {

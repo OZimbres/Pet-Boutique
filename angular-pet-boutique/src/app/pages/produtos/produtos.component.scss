@@ -1,5 +1,5 @@
 :host{
-  heigh: auto;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
 .produtos_body{
   height: auto;
   width: 100%;
+  max-width: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;

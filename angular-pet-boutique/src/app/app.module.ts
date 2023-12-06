@@ -28,6 +28,7 @@ import { FiltroSideProdutoComponent } from './shared/filtro-side-produto/filtro-
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { ItemsCarouselComponent } from './shared/items-carousel/items-carousel.component';
+import { ContaComponent } from './pages/conta/conta.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { ItemsCarouselComponent } from './shared/items-carousel/items-carousel.c
     FiltroTopProdutoComponent,
     FiltroSideProdutoComponent,
     ItemsCarouselComponent,
+    ContaComponent,
   ],
   imports: [
     BrowserModule,

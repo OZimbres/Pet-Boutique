@@ -1,17 +1,43 @@
 article{
   height: auto;
   width: 100%;
+  margin: 0;
+  padding: 0;
 
   .banner{
     height: 45vh;
     width: 100%;
   }
+  .img-transicao{
+    width: 100%;
+  }
   .products{
-    height: 90em;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    .oferta{
+      height: auto;
+      width: 100%;
+
+      .img-transicao-top{
+        width: 100%;
+        margin: 0 0 -10px 0;
+      }
+      .img-transicao-bottom {
+        width: 100%;
+        margin: -20px 0 0 0;
+      }
+
+      .conteudo-container{
+        background-color: var(--verde-primeiro);
+        &.missao-valores{
+          background-color: var(--laranja-primeiro);
+        }
+      }
+    }
   }
 }

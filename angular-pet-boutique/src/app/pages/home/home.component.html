@@ -17,34 +17,48 @@
     ></app-banner-carousel>
   </section>
 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=f4912d&height=80&section=header" class="img-transicao"/>
+
+  <!--Primeira fileira de produtos-->
   <section class="products">
     <app-items-carousel text="Lançamentos">
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
+      <app-card-produto *ngFor="let produto of lancamentos" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
     </app-items-carousel>
 
+    <!--Promoção 1-->
+    <div class="oferta missao-valores">
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=4eed73&height=80&section=footer" class="img-transicao-top"/>
+
+      <div class="conteudo-container">
+        <h1>kk</h1>
+      </div>
+
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=4eed73&height=80&section=header" class="img-transicao-bottom"/>
+    </div>
+
+    <!--Primeira fileira de produtos-->
     <app-items-carousel text="Promoções">
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
+      <app-card-produto *ngFor="let produto of promocoes" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
     </app-items-carousel>
 
+    <!--Promoção 2-->
+    <div class="oferta missao-valores">
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=f4912d&height=80&section=footer" class="img-transicao-top"/>
+
+      <div class="conteudo-container missao-valores">
+        <h1>kk</h1>
+      </div>
+
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=f4912d&height=80&section=header" class="img-transicao-bottom"/>
+    </div>
+
+    <!--Primeira fileira de produtos-->
     <app-items-carousel text="Mais vendidos">
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
-      <app-card-produto class="home" src="" alt="imagem"></app-card-produto>
+      <app-card-produto *ngFor="let produto of maisVendidos" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
     </app-items-carousel>
   </section>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=80&section=footer" class="img-transicao"/>
 </article>
 
 <app-footer></app-footer>

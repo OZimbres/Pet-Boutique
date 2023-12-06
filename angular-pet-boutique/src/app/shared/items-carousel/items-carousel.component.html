@@ -3,20 +3,19 @@
     <h2>{{ text }}</h2>
   </section>
 
-  <section class="conteudo">
+  <section class="conteudo" id="conteudo">
     <div class="btn">
-      <button class="btn-prev">
+      <button class="btn-prev" id="btn-prev" (click)="prevSlide()">
         <mat-icon>arrow_back_ios</mat-icon>
       </button>
 
-      <button class="btn-next">
+      <button class="btn-next" id="btn-next" (click)="nextSlide()">
         <mat-icon>arrow_forward_ios</mat-icon>
       </button>
     </div>
 
     <div class="visivel">
-      <div class="carousel">
-        <!--' <ng-content> ' permite a criação de pontos de inserção de conteúdo dinâmico em diversos tipos de componentes-->
+      <div class="carousel" [ngStyle]="{'transform': 'translateX(' + translateX + ')'}">
         <ng-content></ng-content>
       </div>
     </div>
