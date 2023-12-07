@@ -1,0 +1,76 @@
+{
+  "produtos":[
+    {
+      "id": 1,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 3,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 2,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 4,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto Z",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 5,
+      "foto": "./assets/youtube.png",
+      "nome": "AS DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 6,
+      "foto": "./assets/youtube.png",
+      "nome": "FAD fet",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 7,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 8,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    },
+    {
+      "id": 9,
+      "foto": "./assets/youtube.png",
+      "nome": "Produto DMZ",
+      "descricao": "produto demaize",
+      "preco": 20.99,
+      "quantidade": 200
+    }
+  ]
+}

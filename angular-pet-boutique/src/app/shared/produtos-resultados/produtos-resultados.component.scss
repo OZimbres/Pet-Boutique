@@ -1,6 +1,6 @@
 :host{
   height: auto;
-  width: 80%;
+  width: calc(80% - 4px);
 
   article{
     height: auto;

@@ -1,0 +1,38 @@
+// Importa os módulos necessários
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Produto } from '../model/produto.model';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class produtoService {
+  private apiUrl = 'http://localhost:3000/produtos'; // Caminho para o arquivo JSON
+
+  constructor(private http: HttpClient) {} // HttpClient -> Classe de conexão com o JSON
+
+  // Obtém a lista de Produtos a partir do arquivo JSON
+  getProdutos(): Observable<Produto[]> {
+    return this.http.get<Produto[]>(this.apiUrl);
+  }
+
+  // Cadastra uma nova curriculo no servidor
+  cadastrarCurriculo(curriculo: Produto): Observable<Produto[]> {
+    return this.http.post<Produto[]>(this.apiUrl, curriculo);
+  }
+
+  // Atualiza uma curriculo existente no servidor
+  atualizarCurriculo(id: any, curriculo: Produto): Observable<Produto[]> {
+    const urlAtualizar = `${this.apiUrl}/${id}`;
+
+    return this.http.put<Produto[]>(urlAtualizar, curriculo);
+  }
+
+  // Remove uma curriculo do servidor
+  removerCurriculo(id: any): Observable<Produto[]> {
+    const urlDeletar = `${this.apiUrl}/${id}`;
+
+    return this.http.delete<Produto[]>(urlDeletar);
+  }
+}

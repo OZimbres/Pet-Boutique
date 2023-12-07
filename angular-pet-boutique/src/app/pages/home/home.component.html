@@ -22,7 +22,7 @@
   <!--Primeira fileira de produtos-->
   <section class="products">
     <app-items-carousel text="Lançamentos">
-      <app-card-produto *ngFor="let produto of lancamentos" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
+      <app-card-produto *ngFor="let produto of lancamentos" [src]="produto.src" [alt]="produto.alt" [nome]="produto.nome" [preco]="produto.preco" class="home"></app-card-produto>
     </app-items-carousel>
 
     <!--Promoção 1-->
@@ -38,7 +38,7 @@
 
     <!--Primeira fileira de produtos-->
     <app-items-carousel text="Promoções">
-      <app-card-produto *ngFor="let produto of promocoes" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
+      <app-card-produto *ngFor="let produto of produtos" [id]="produto.id" [foto]="produto.foto" [nome]="produto.nome" [descricao]="produto.descricao" [preco]="produto.preco" [quantidade]="produto.quantidade" class="home"></app-card-produto>
     </app-items-carousel>
 
     <!--Promoção 2-->
@@ -54,7 +54,7 @@
 
     <!--Primeira fileira de produtos-->
     <app-items-carousel text="Mais vendidos">
-      <app-card-produto *ngFor="let produto of maisVendidos" [src]="produto.src" [alt]="produto.alt" class="home"></app-card-produto>
+      <app-card-produto *ngFor="let produto of maisVendidos" [src]="produto.src" [alt]="produto.alt" [nome]="produto.nome" [preco]="produto.preco" class="home"></app-card-produto>
     </app-items-carousel>
   </section>
 
