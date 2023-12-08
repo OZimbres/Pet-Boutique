@@ -29,6 +29,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { ItemsCarouselComponent } from './shared/items-carousel/items-carousel.component';
 import { ContaComponent } from './pages/conta/conta.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { ContaComponent } from './pages/conta/conta.component';
     MatSliderModule,
     MatMenuModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

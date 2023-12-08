@@ -7,23 +7,25 @@ import { SideCarrinhoService } from 'src/app/services/side-carrinho.service';
   styleUrls: ['./card-produto.component.scss'],
 })
 export class CardProdutoComponent {
-  @Input() id: string = '';
-  @Input() src: string = '';
+  @Input() id: number = 1;
+  @Input() foto: string = '';
   @Input() nome: string = '';
-  @Input() preco: string = '';
+  @Input() descricao: string = '';
+  @Input() preco: number = 0;
+  @Input() quantidade: number = 0;
 
-  item = [
-    {
+  item = {
     id: this.id,
-    src: 'src',
+    foto: this.foto,
     nome: this.nome,
-    preco: '314',
-    }
-  ];
+    descricao: this.descricao,
+    preco: this.preco,
+    quantidade: this.quantidade
+  };
 
   constructor(private sideCarrinhoService: SideCarrinhoService) {}
 
   adicionarAoCarrinho() {
-    this.sideCarrinhoService.adicionarAoCarrinho(this.item);
+    this.sideCarrinhoService.adicionarAoCarrinho(this.item.id);
   }
 }

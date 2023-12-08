@@ -1,12 +1,11 @@
 <article class="produto-card">
   <div class="produto-img">
-    <img src="{{ src }}"/>
+    <img src="{{ foto }}"/>
   </div>
   <div class="produto-info">
     <h3>{{ nome }}</h3>
     <p>
-      Descrição breve do produto. Pode incluir algumas características
-      principais.
+      {{ descricao }}
     </p>
     <span class="preco">{{ preco }}</span>
     <button class="btn-comprar" (click)="adicionarAoCarrinho()">Comprar</button>

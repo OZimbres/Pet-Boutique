@@ -8,7 +8,8 @@ import { Produto } from '../model/produto.model';
   providedIn: 'root',
 })
 export class produtoService {
-  private apiUrl = 'http://localhost:3000/produtos'; // Caminho para o arquivo JSON
+  private apiUrl = 'http://localhost:3000/produtos';
+ // Caminho para o arquivo JSON
 
   constructor(private http: HttpClient) {} // HttpClient -> Classe de conexão com o JSON
 
@@ -17,20 +18,27 @@ export class produtoService {
     return this.http.get<Produto[]>(this.apiUrl);
   }
 
-  // Cadastra uma nova curriculo no servidor
-  cadastrarCurriculo(curriculo: Produto): Observable<Produto[]> {
-    return this.http.post<Produto[]>(this.apiUrl, curriculo);
+  // Pega por ID
+  getProduto(id: any): Observable<Produto[]> {
+    const urlPegar = `${this.apiUrl}/${id}`;
+
+    return this.http.get<Produto[]>(urlPegar);
   }
 
-  // Atualiza uma curriculo existente no servidor
-  atualizarCurriculo(id: any, curriculo: Produto): Observable<Produto[]> {
+  // Cadastra uma nova Produto no servidor
+  cadastrarProduto(produto: Produto): Observable<Produto[]> {
+    return this.http.post<Produto[]>(this.apiUrl, produto);
+  }
+
+  // Atualiza uma Produto existente no servidor
+  atualizarProduto(id: any, produto: Produto): Observable<Produto[]> {
     const urlAtualizar = `${this.apiUrl}/${id}`;
 
-    return this.http.put<Produto[]>(urlAtualizar, curriculo);
+    return this.http.put<Produto[]>(urlAtualizar, produto);
   }
 
-  // Remove uma curriculo do servidor
-  removerCurriculo(id: any): Observable<Produto[]> {
+  // Remove uma Produto do servidor
+  removerProduto(id: any): Observable<Produto[]> {
     const urlDeletar = `${this.apiUrl}/${id}`;
 
     return this.http.delete<Produto[]>(urlDeletar);

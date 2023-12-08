@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { SideCarrinhoService } from 'src/app/services/side-carrinho.service';
-import { HomeComponent } from 'src/app/pages/home/home.component';
 
 @Component({
   selector: 'app-header-top',
@@ -18,7 +17,7 @@ export class HeaderTopComponent {
   esconderElemento(): void {
     this.transform = 'translateX(calc(-84vw - 35vw))';
   }
-  
+
   itens: any[];
 
   constructor(private sideCarrinhoService: SideCarrinhoService) {

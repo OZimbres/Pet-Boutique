@@ -1,14 +1,3 @@
 <article>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
-  <app-card-produto class="produtos" src="./assets/youtube.png" alt="imagem"></app-card-produto>
+  <app-card-produto *ngFor="let produto of produtos" [id]="produto.id" [foto]="produto.foto" [nome]="produto.nome" [descricao]="produto.descricao" [preco]="produto.preco" [quantidade]="produto.quantidade" class="produtos"></app-card-produto>
 </article>
