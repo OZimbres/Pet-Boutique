@@ -19,10 +19,10 @@ export class produtoService {
   }
 
   // Pega por ID
-  getProduto(id: any): Observable<Produto[]> {
+  getProduto(id: any): Observable<Produto> {
     const urlPegar = `${this.apiUrl}/${id}`;
 
-    return this.http.get<Produto[]>(urlPegar);
+    return this.http.get<Produto>(urlPegar);
   }
 
   // Cadastra uma nova Produto no servidor

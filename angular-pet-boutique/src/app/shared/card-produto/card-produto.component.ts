@@ -26,6 +26,7 @@ export class CardProdutoComponent {
   constructor(private sideCarrinhoService: SideCarrinhoService) {}
 
   adicionarAoCarrinho() {
+    console.log(this.item.id)
     this.sideCarrinhoService.adicionarAoCarrinho(this.item.id);
   }
 }

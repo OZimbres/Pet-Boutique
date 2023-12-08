@@ -22,6 +22,7 @@ export class HeaderTopComponent {
 
   constructor(private sideCarrinhoService: SideCarrinhoService) {
     this.itens = this.sideCarrinhoService.obterCarrinho();
+    console.log(this.itens);
   }
   removerDoCarrinho(item: any) {
     this.sideCarrinhoService.removerDoCarrinho(item);

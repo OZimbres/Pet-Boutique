@@ -10,22 +10,23 @@ export class SideCarrinhoService {
 
   itens: any[] = [];
 
-  public produto: Produto[] = [];
+  public produto: Produto | undefined;
 
   adicionarAoCarrinho(id: number) {
+    console.log(id);
     this._produtoService.getProduto(id).subscribe((retornaProduto) => {
-      this.produto = retornaProduto.map((produto) => {
-        return new Produto(
-          produto.id,
-          produto.nome,
-          produto.foto,
-          produto.descricao,
-          produto.preco,
-          produto.quantidade
-        );
-      });
+      this.produto = new Produto(
+        retornaProduto.id,
+        retornaProduto.nome,
+        retornaProduto.foto,
+        retornaProduto.descricao,
+        retornaProduto.preco,
+        retornaProduto.quantidade
+      );
     });
+    console.log(this.produto);
     this.itens.push(this.produto);
+    console.log(this.itens);
   }
 
   obterCarrinho() {

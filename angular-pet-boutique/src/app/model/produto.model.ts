@@ -1,6 +1,6 @@
 export class Produto {
   //-----===| ATRIBUTOS |===-----//
-  id: number = 0;
+  id: number = 1;
   foto: string = '';
   nome: string = '';
   descricao: string = '';
